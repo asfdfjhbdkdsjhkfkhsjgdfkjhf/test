@@ -1,26 +1,6 @@
 const Discord = require("discord.js");//@Flasteni
 const falsteni = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
-
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
-	
 	falsteni.on("ready", () => {
 let channel =     falsteni.channels.get("515208908415959059")
 setInterval(function() {
@@ -44,26 +24,7 @@ falsteni.login('NTE1MjM4MTMzMDEzNDEzODkw.DtiMxA.q189UHQ9qHZElHRkiAtXQYdco7U');
 
 const falsteni1 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni1.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
 
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
-	
 	falsteni1.on("ready", () => {
 let channel =     falsteni1.channels.get("515208908415959059")
 setInterval(function() {
@@ -87,26 +48,7 @@ falsteni1.login('NTE1MjM4NjU5NjU0NjgwNTk1.DtiNmg.ftL9XFY7jiHyfyfApxMRmIoc-zg');
 
 const falsteni2 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni2.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
 
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
-	
 	falsteni2.on("ready", () => {
 let channel =     falsteni2.channels.get("515208908415959059")
 setInterval(function() {
@@ -130,25 +72,6 @@ falsteni2.login('NTE1MjM5NTIwNTk0MTY1Nzgy.DtiOPg.W1rOOBZqls_x3-d-yXX_fZFqlOU');
 
 const falsteni3 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni3.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
-
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
 	
 	falsteni3.on("ready", () => {
 let channel =     falsteni3.channels.get("515208908415959059")
@@ -174,26 +97,7 @@ falsteni3.login('NTE1MjQwMjkwNjAxMjcxMjk2.DtiO8g.Mm8Jh8RGEe4P1ZiZb0Z8Xf4wWSA');
 
 const falsteni4 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni4.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
 
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
-	
 	falsteni4.on("ready", () => {
 let channel =     falsteni4.channels.get("515208908415959059")
 setInterval(function() {
@@ -218,26 +122,7 @@ falsteni4.login('NTE1MjQxMDQxNDEwOTE2MzU0.DtiPew.81GEzPwqwcBPdqfk3a-BmsYzDbU');
 
 const falsteni5 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni5.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
 
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
-	
 	falsteni5.on("ready", () => {
 let channel =     falsteni5.channels.get("515208908415959059")
 setInterval(function() {
@@ -258,29 +143,9 @@ falsteni5.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839
 }
 });	
 falsteni5.login('NTE1MjMxNDE5MDkwMzM3Nzk0.DtiHag.0J8Z8ikjjpg_rMRNxtmfkcEpg9Y');
-
 const falsteni6 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni6.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
 
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
-	
 	falsteni6.on("ready", () => {
 let channel =     falsteni5.channels.get("515208908415959059")
 setInterval(function() {
@@ -304,25 +169,6 @@ falsteni6.login('NTE1MjMyODgzNjc0MzE2ODIw.DtiJ2Q.uwM39e2gEqIa0lBYqaJKmEeC0Ag');
 
 const falsteni7 = new Discord.Client();//@Flasteni
 var prefix = "!"
-falsteni7.on('message', message => {//@Flasteni
-  if (!message.content.startsWith(prefix)) return;//@Flasteni
-  var args = message.content.split(' ').slice(1);//@Flasteni
-  var argresult = args.join(' ');//@Flasteni
-  if (message.author.id !== "497449510495059978") return;//@Flasteni
-
-//@Flasteni
-  if (message.content.startsWith('!spam')) { //@Flasteni
-          let count = 0;//@Flasteni
-          let ecount = 0;//@Flasteni
-          for(let x = 0; x < 90000; x++) {//@Flasteni
-            message.channel.send(`${argresult}`)//@Flasteni
-              .then(m => {//@Flasteni
-                count++;//@Flasteni
-              })//@Flasteni
-              //@Flasteni//@Flasteni
-            }//@Flasteni
-          }//@Flasteni
-    });//@Flasteni
 	
 	falsteni7.on("ready", () => {
 let channel =     falsteni7.channels.get("515208908415959059")
