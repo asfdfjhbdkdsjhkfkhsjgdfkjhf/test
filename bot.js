@@ -1,212 +1,212 @@
 const Discord = require("discord.js");
 
-const falsteni = new Discord.Client();
+const ARAB = new Discord.Client();
 
 
-falsteni.on('ready', async() => {
+ARAB.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 
-falsteni.on('message', message => {
+ARAB.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni.on('message', message => {
+ARAB.on('message', message => {
      if (message.content === "!av-set") {
-falsteni.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni.login('NTE1MjM4MTMzMDEzNDEzODkw.DtiMxA.q189UHQ9qHZElHRkiAtXQYdco7U');
+ARAB.login('NTE1MjM4MTMzMDEzNDEzODkw.DtiMxA.q189UHQ9qHZElHRkiAtXQYdco7U');
 
-const falsteni1 = new Discord.Client();
+const ARAB1 = new Discord.Client();
 
 
-falsteni1.on('ready', async() => {
+ARAB1.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni1.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB1.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni1.on('message', message => {
+ARAB1.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni1.on('message', message => {
+ARAB1.on('message', message => {
      if (message.content === "!av-set") {
-falsteni1.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB1.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni1.login('NTE1MjM4NjU5NjU0NjgwNTk1.DtiNmg.ftL9XFY7jiHyfyfApxMRmIoc-zg');
+ARAB1.login('NTE1MjM4NjU5NjU0NjgwNTk1.DtiNmg.ftL9XFY7jiHyfyfApxMRmIoc-zg');
 
 
-const falsteni2 = new Discord.Client();
+const ARAB2 = new Discord.Client();
 
 
-falsteni2.on('ready', async() => {
+ARAB2.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni2.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB2.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni2.on('message', message => {
+ARAB2.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni2.on('message', message => {
+ARAB2.on('message', message => {
      if (message.content === "!av-set") {
-falsteni2.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB2.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni2.login('NTE1MjM5NTIwNTk0MTY1Nzgy.DtiOPg.W1rOOBZqls_x3-d-yXX_fZFqlOU');
+ARAB2.login('NTE1MjM5NTIwNTk0MTY1Nzgy.DtiOPg.W1rOOBZqls_x3-d-yXX_fZFqlOU');
 
 
-const falsteni3 = new Discord.Client();
+const ARAB3 = new Discord.Client();
 
 	
-falsteni3.on('ready', async() => {
+ARAB3.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni3.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB3.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni3.on('message', message => {
+ARAB3.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni3.on('message', message => {
+ARAB3.on('message', message => {
      if (message.content === "!av-set") {
-falsteni3.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB3.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni3.login('NTE1MjQwMjkwNjAxMjcxMjk2.DtiO8g.Mm8Jh8RGEe4P1ZiZb0Z8Xf4wWSA');
+ARAB3.login('NTE1MjQwMjkwNjAxMjcxMjk2.DtiO8g.Mm8Jh8RGEe4P1ZiZb0Z8Xf4wWSA');
 
 
 
-const falsteni4 = new Discord.Client();
+const ARAB4 = new Discord.Client();
 
 
 
-falsteni4.on('ready', async() => {
+ARAB4.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni4.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB4.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni4.on('message', message => {
+ARAB4.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni4.on('message', message => {
+ARAB4.on('message', message => {
      if (message.content === "!av-set") {
-falsteni4.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB4.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni4.login('NTE1MjQxMDQxNDEwOTE2MzU0.DtiPew.81GEzPwqwcBPdqfk3a-BmsYzDbU');
+ARAB4.login('NTE1MjQxMDQxNDEwOTE2MzU0.DtiPew.81GEzPwqwcBPdqfk3a-BmsYzDbU');
 
 
-const falsteni5 = new Discord.Client();
+const ARAB5 = new Discord.Client();
 
 
-falsteni5.on('ready', async() => {
+ARAB5.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni5.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB5.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni5.on('message', message => {
+ARAB5.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni5.on('message', message => {
+ARAB5.on('message', message => {
      if (message.content === "!av-set") {
-falsteni5.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB5.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni5.login('NTE1MjMxNDE5MDkwMzM3Nzk0.DtiHag.0J8Z8ikjjpg_rMRNxtmfkcEpg9Y');
+ARAB5.login('NTE1MjMxNDE5MDkwMzM3Nzk0.DtiHag.0J8Z8ikjjpg_rMRNxtmfkcEpg9Y');
 
 
-const falsteni6 = new Discord.Client();
+const ARAB6 = new Discord.Client();
 
 
-falsteni6.on('ready', async() => {
+ARAB6.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni6.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB6.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni6.on('message', message => {
+ARAB6.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni6.on('message', message => {
+ARAB6.on('message', message => {
      if (message.content === "!av-set") {
-falsteni6.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB6.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni6.login('NTE1MjMyODgzNjc0MzE2ODIw.DtiJ2Q.uwM39e2gEqIa0lBYqaJKmEeC0Ag');
+ARAB6.login('NTE1MjMyODgzNjc0MzE2ODIw.DtiJ2Q.uwM39e2gEqIa0lBYqaJKmEeC0Ag');
 
 
 
-const falsteni7 = new Discord.Client();
+const ARAB7 = new Discord.Client();
 
 
 	
-falsteni7.on('ready', async() => {
+ARAB7.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni7.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    ARAB7.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
-falsteni7.on('message', message => {
+ARAB7.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
 });
-falsteni7.on('message', message => {
+ARAB7.on('message', message => {
      if (message.content === "!av-set") {
-falsteni7.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ARAB7.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
  
 }
 });	
-falsteni7.login('NTE1MjM1NDk5NTU2OTk1MDg1.DtiKjg.cpVWCWEqxXpxcL6nhPr2J2ALKkU');
+ARAB7.login('NTE1MjM1NDk5NTU2OTk1MDg1.DtiKjg.cpVWCWEqxXpxcL6nhPr2J2ALKkU');
