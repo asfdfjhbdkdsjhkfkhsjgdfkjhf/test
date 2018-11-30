@@ -7,7 +7,7 @@ falsteni.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 
@@ -33,7 +33,7 @@ falsteni1.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni1.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni1.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni1.on('message', message => {
@@ -59,7 +59,7 @@ falsteni2.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni2.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni2.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni2.on('message', message => {
@@ -85,7 +85,7 @@ falsteni3.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni3.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni3.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni3.on('message', message => {
@@ -113,7 +113,7 @@ falsteni4.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni4.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni4.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni4.on('message', message => {
@@ -139,7 +139,7 @@ falsteni5.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni5.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni5.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni5.on('message', message => {
@@ -165,7 +165,7 @@ falsteni6.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni6.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni6.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni6.on('message', message => {
@@ -193,7 +193,7 @@ falsteni7.on('ready', async() => {
 var server = "515196917605466128"; 
 var channel = "515208908415959059";
     setInterval(()=>{
-    falsteni7.guilds.get(server).channels.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
+    falsteni7.guilds.get(server).channel.get(channel).send('**SDSSSSSSSS,sddddddddd,sdddddddddddd,dssssssssssss,sdddddddddddd,sddddddddddd **')
     },305);
 })
 falsteni7.on('message', message => {
