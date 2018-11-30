@@ -23,4 +23,4 @@ ARAB.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/5
  
 }
 });	
-ARAB.login(process.env.t1);
+ARAB.login(process.env.t6);
