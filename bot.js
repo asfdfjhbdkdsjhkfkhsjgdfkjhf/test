@@ -175,3 +175,27 @@ ARAB7.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/
 });	
 ARAB7.login(process.env.t7);
 
+const ARAB8 = new Discord.Client();
+
+
+	ARAB8.on("ready", () => {
+let channel =     ARAB8.channels.get("515208908415959059")
+setInterval(function() {
+channel.send(`DDDDDDDD`);
+}, 15)
+})
+
+ARAB8.on('message', message => {
+    let prefix = 'v1';
+   if(message.content.startsWith('v1say')) {
+       let args = message.content.split(' ').slice(1).join(' ');
+       message.channel.send(args)
+   } 
+});
+ARAB8.on('message', message => {
+     if (message.content === "!av-set") {
+ARAB8.user.setAvatar(`https://cdn.discordapp.com/attachments/480884525505839104/515234980612538368/006.jpg`)
+ 
+}
+});	
+ARAB7.login(process.env.t8);
