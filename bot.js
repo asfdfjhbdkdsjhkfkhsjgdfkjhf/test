@@ -147,7 +147,7 @@ const falsteni6 = new Discord.Client();//@Flasteni
 var prefix = "!"
 
 	falsteni6.on("ready", () => {
-let channel =     falsteni5.channels.get("515208908415959059")
+let channel =     falsteni6.channels.get("515208908415959059")
 setInterval(function() {
 channel.send(`DDDDDDDD`);
 }, 15)
