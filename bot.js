@@ -135,7 +135,7 @@ channel.send(`DDDDDDDD`);
 }, 15)
 })
 
-ARAB2.on('message', message => {
+ARAB6.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
@@ -160,7 +160,7 @@ channel.send(`DDDDDDDD`);
 }, 15)
 })
 
-ARAB2.on('message', message => {
+ARAB6.on('message', message => {
     let prefix = 'v1';
    if(message.content.startsWith('v1say')) {
        let args = message.content.split(' ').slice(1).join(' ');
